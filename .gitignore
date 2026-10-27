@@ -1,0 +1,42 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 测试与构建产物
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.tox/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 本地工具与临时文件
+*.log
+.DS_Store
+tmp/
+temp/
+
+# 测试运行产生的临时占位文件（8 位随机名，内容为 "blat"）
+/????????
+!/examples/
